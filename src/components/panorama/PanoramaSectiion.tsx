@@ -28,10 +28,10 @@ const PanoramaSectiion = ({
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleClick = (e: any) => {
-    return
+    //return
     //use for check position of the marker
-    const yaw = e.data.yaw.toFixed(2);
-    const pitch = e.data.pitch.toFixed(2);
+    const yaw = e.data.yaw.toFixed(3);
+    const pitch = e.data.pitch.toFixed(3);
     console.log(`yaw = ${yaw}, pitch = ${pitch}`);
   };
 

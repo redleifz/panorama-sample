@@ -4,3 +4,21 @@
 *{
   cursor: pointer;
 }
+
+.marker {
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid black; /* Customize border color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensures the image stays within the circle */
+}
+
+.marker img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+  border-radius: 50%; /* Ensures the image is also circular */
+}

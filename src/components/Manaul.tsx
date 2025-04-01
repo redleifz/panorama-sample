@@ -44,7 +44,7 @@ const Manual = ({
           {/* Content */}
           <div
             ref={modalRef}
-            className="bg-white  rounded-lg shadow-lg p-6 z-[200] w-96 max-w-[80vw] min-w-[300px] flex flex-col justify-center items-center text-center"
+            className="bg-white opacity-95 border-5 border-gray-200  rounded-lg shadow-lg p-6 z-[200] w-96 max-w-[80vw] min-w-[300px] flex flex-col justify-center items-center text-center"
           >
             <h2 className="text-xl font-bold mb-4">แนะนำการใช้งาน</h2>
             <hr className="border-1 border-gray-300 w-full mb-4" />
@@ -80,7 +80,7 @@ const Manual = ({
                     className="rounded-lg mb-4"
                   />
                 </div>
-                <span>ใช้ 2 นิ้วเพื่อนย่อ - ขยาย</span>
+                <span>ใช้ 2 นิ้วเพื่อย่อ - ขยาย</span>
               </div>
             </div>
             <button

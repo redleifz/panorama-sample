@@ -11,7 +11,7 @@ const Navbar = ({
   roomState: string;
   setRoomState: (roomState: string) => void;
   roomObject: { label: string; id: string }[];
-  seetIsOpenHelp: (isOpen: boolean) => void;
+  setIsOpenHelp: (isOpen: boolean) => void;
 }) => {
   return (
     <div className="fixed bottom-0 bg-black opacity-80 py-4  text-white w-full flex gap-4 items-end justify-between z-50 px-6">
